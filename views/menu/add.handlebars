@@ -1,0 +1,23 @@
+<div class="">
+	<div class="row">
+		<div class="box">
+			<img src="../img/hotels/buy_voucher_main.jpg" alt="" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<br>
+	<div class="container">
+	      {{#each voucher}}
+<div class="card card-body myaddMain">  
+    <div class="card card-body myadd">
+      <form action="/voucher/pay/{{this._id}}/{{this.user.id}}" method="POST" >
+        <h4 class="card-title">{{this.vouchername}} </h4>        
+         <p class="card-text myData">Price : {{price}} <br> Description : {{description}} <br><hr> Quantity : <input type="number" class="quan_input" value="0" min="0" name ="quantity" id="example-number-input"></p>
+        <button type="submit" class="btn btn-success">Buy</button>
+      </form>
+      </div>    
+</div>
+<br>
+ {{/each}}
+ </div>
+ </div>

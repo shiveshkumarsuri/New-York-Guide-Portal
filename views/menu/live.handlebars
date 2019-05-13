@@ -1,0 +1,30 @@
+<div class="">
+	<div class="row">
+		<div class="box">
+			<img src="../img/hotels/live_main.jpg" alt="" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<br>
+
+	<div class="container">
+		{{#each entries}}
+		<div class="row myRow">
+			<div class="row hidden-md-up">
+				<div class="col-md-6">
+					<div class="card">
+						<img class="card-img-top restaurant-card" src="/{{imagepath}}" alt="image">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card-body">
+						<h4 class="card-title myData">{{name}}</h4>
+						<p class="myData">Ratings : {{star}} <br> Avg price per night : {{cost}} <br> Area : {{area}} <br> Description :
+							{{description}} <br> Website : <a href="{{url}}">Visit the website</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+	</div>

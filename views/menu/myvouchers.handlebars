@@ -1,0 +1,21 @@
+<div class="">
+	<div class="row">
+		<div class="box">
+			<img src="../img/hotels/my_voucher_main.jpg" alt="" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<br>
+	<div class="container">
+	      {{#each myVouchers}}
+<div class="card card-body myvouRow">  
+    <div class="card card-body myvou">
+     
+        <h4 class="card-title">{{vouchername}} </h4>        
+         <p class="card-text myData">Price : ${{price}} <br> Description : {{description}}</p>            
+      </div>      
+</div>
+<br>
+ {{/each}}
+ </div>
+ </div>

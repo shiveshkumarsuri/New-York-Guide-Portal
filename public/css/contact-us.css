@@ -1,0 +1,32 @@
+.pri {
+        background-image: linear-gradient(to right, #F7F8F8 ,#6dd5ed);
+        padding:60px;
+}
+
+.para{
+        text-align: justify;
+}
+
+label {	float: left;
+        width: 150px;
+}
+
+.contact_con{
+padding:60px;
+background-color: rgb(220, 240, 245);
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;  
+      
+} 
+
+.contact{
+        background-image: linear-gradient(to right, #F7F8F8 ,#6dd5ed);
+        padding:60px;
+}
+
+.error{
+color:red;
+font-size: 12px;
+}

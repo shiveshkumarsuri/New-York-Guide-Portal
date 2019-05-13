@@ -1,0 +1,33 @@
+<div class="">
+	<div class="row">
+		<div class="box">
+			<img src="../img/attractions/attractions_main.jpg" alt="" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<br>
+	<div>
+		<h1 class="attr_header"></h1>
+
+	</div>
+	<div class="container">
+		{{# each products}}
+		<div class="row hidden-md-up">
+			{{# each this}}
+			<div class="media attractions">
+				<div class="asset">
+					<a href="{{this.imagelink}}" target="_blank">
+						<img src="/{{this.imagepath}}" class="img-fluid attr_img"></a>
+				</div>
+				<div class="content attr_medbody">
+					<h3 class="media-heading">{{this.title}}</h3>
+					<p>{{this.description}}</p>
+				</div>
+			</div>
+			<hr>
+			{{/each}}
+
+		</div>
+		{{/each}}
+	</div>
+</div>

@@ -1,0 +1,32 @@
+<div class="">
+    <div class="row">
+        <div class="box">
+            <img src="../img/shopping/shopping_main.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+    <hr>
+    <br>
+    <section class="gallery-block shopping">
+        <div class="container">
+            {{# each products}}
+            <div class="row hidden-md-up">
+                {{# each this}}
+                <div class="col-md-4 mb-2">
+                    <div class="sh_img">
+                        <a href="{{this.imagelink}}" target="_blank">
+                            <img src="/{{this.imagepath}}" class="img-fluid">
+                            <strong>
+                                <h4>{{this.title}}</h4>
+                            </strong>
+                        </a>
+                    </div>
+                </div>
+
+
+                {{/each}}
+            </div>
+            <br>
+            {{/each}}
+        </div>
+    </section>
+</div>

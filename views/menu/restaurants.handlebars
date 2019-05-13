@@ -1,0 +1,32 @@
+<div class="">
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+     <div class="row">
+        <div class="box">
+            <img src="/img/restaurant/restaurant-baner.jpg" alt="" class="img-fluid">
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div class="container"> 
+        {{# each products}}    
+      <div class="row hidden-md-up">
+          {{# each this}}
+        <div class="col-md-4">
+          <div class="card mb-2">
+              <!-- Image -->
+              <img class="card-img-top restaurant-card" src="{{this.imagepath}}" alt="Restaurant {{this.title}}">
+              <!-- Text Content -->
+              <div class="card-body">
+                <h4 class="card-title">{{this.title}}</h4>
+              <p class="card-text">{{this.description}}</p>
+                  <a href="{{this.restaurantURL}}" class="link" target="_blank">{{this.title}}</a>
+                 
+              </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <br>
+    {{/each}}
+  </div>
+</div>

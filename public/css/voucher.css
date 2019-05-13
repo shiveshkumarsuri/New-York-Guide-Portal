@@ -1,0 +1,73 @@
+.myRow {
+  
+  border: none;
+  color: black;
+  display:flex;
+  padding: 16px 32px;    
+  font-size: 16px;
+  margin: 4px 2px;    
+}
+.myvou {
+  
+  border: none;
+  color: black;
+  display:flex;
+  padding: 16px 32px;    
+  font-size: 16px;
+  margin: 4px 2px;    
+}
+
+.myadd {
+  
+  border: none;
+  color: black;
+  display:flex;
+  padding: 16px 32px;    
+  font-size: 16px;
+  margin: 4px 2px;    
+}
+
+.myRow:hover{background:linear-gradient( #7b4397, #87CEFA); 
+}
+
+.myadd:hover{background:linear-gradient(to right, #9999FF, #00CCFF); 
+}
+
+.myvou:hover{background:linear-gradient(#FFCC66,#FFFFF0); 
+}
+
+
+  .myRowMain{
+    background:linear-gradient(to right, #000000 , #A9A9A9);
+  }
+  .myaddMain{
+    background:linear-gradient(to right, #000000 , #A9A9A9);
+  }
+
+  .myvouRow{
+    background:linear-gradient(to right, #000000 , #A9A9A9);
+  }
+
+  .liveRow {
+    background-color:#F5DEB3;
+    border: none;
+    color: black;
+    display:flex;
+    padding: 16px 32px;    
+    font-size: 16px;
+    margin: 4px 2px;    
+    transition: 0.3s;    
+  }
+
+  .liveRow:hover{background:linear-gradient( #708090, #D8BFD8); 
+  }
+
+#example-number-input{
+  
+  width:5%;
+}
+@media (max-width: 576px) {
+  .quan_input{
+    width:25px !important;
+  }
+}

@@ -1,0 +1,119 @@
+.i-video{
+    margin-bottom: 2rem;
+    border: black solid 5px;
+    border-radius: 10px;
+    height: 450px;
+}
+p{
+    text-align: justify;
+}
+.j5{
+    background-color: #fff;
+}
+.logo-img{
+    float: left;
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin-bottom: -14px;
+    margin-top: -14px;
+}
+.logo-img-footer{
+    width: 120px;
+    height: 120px;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 25px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(254, 190, 137);
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+}
+#myBtn:hover {
+     background-color: #555; 
+}
+.accor{
+    color: navy;
+    font-size: larger;
+    font-weight: bold;
+}
+
+  .dropdown-menu {
+    background-color: #0c1a1e;
+  }
+  .dropdown-item {
+    color: #FFD102 !important;
+  }
+
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+     color: #e5dbdb;
+    background-color: #425766;
+ }
+ .reg{
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+ }
+ .cus-logout{
+     background-color:rgba(221, 172, 33, 0.5);
+     padding: 10px;
+ }
+ .map-small{
+     height: 400px;
+ }
+ .login-card{
+    background-image: url("../img/login.jpg");
+    background-size: cover;
+ }
+ .register-card{
+    background-image: url("../img/register.jpg");
+    background-size: cover;
+ }
+ .btn-login{
+    background-color: teal;
+ }
+ .btn-register{
+    background-color: teal;
+ }
+ .cus-logout-cont{
+     background-image: url("../img/coverpic.jpg");
+     background-repeat: none;
+     border: 2px solid;
+     padding: 60px;
+     background-size: cover;
+     margin-bottom: 40px;   
+     font-family: 'Gruppo', cursive;
+ }
+ .collapsed{
+     font-weight: bolder;
+     text-decoration: none !important;
+ }
+ .logout-baner{
+    color:black;
+    font-weight:bold;
+    font-size: 1.5rem;
+    animation: myanimation 10s infinite;    
+ }
+ .logout-baner p{
+     text-align: center;
+     font-weight:bold;
+     font-size:1.8rem;
+     color:#fff;
+     font-family: 'Bungee Inline', cursive;
+ }
+
+ @keyframes myanimation {
+    0% {background-color: rgb(128,0,0,0.5);}
+    25%{background-color:rgb(0,128,0,0.5);}
+    50%{background-color:rgb(0,0,128,0.5);}
+    75%{background-color:rgba(63, 191, 146, 0.5);}
+    100% {background-color: rgba(233, 37, 11,0.5);}
+  }

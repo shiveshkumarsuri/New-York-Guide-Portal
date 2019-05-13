@@ -1,0 +1,30 @@
+<div class="">
+	<div class="row">
+		<div class="box">
+			<img src="../img/artgallery/art_gallery_main.jpg" alt="" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<br>
+	<section class="gallery-block art_gallery">
+		<div class="container">
+			{{# each products}}
+			<div class="row hidden-md-up">
+				{{# each this}}
+				<div class="col-md-4 mb-2">
+					<div class="card border-0 transform-on-hover">
+						<a class="lightbox" href="{{this.imagelink}}" target="_blank">
+							<img src="/{{this.imagepath}}" alt="Card Image" class="card-img-top">
+						</a>
+						<div class="card-body">
+							<h6><a href="{{this.imagelink}}">{{this.title}}</a></h6>
+							<p><a href="{{this.imagelink}}">{{this.description}}</a></p>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+			{{/each}}
+		</div>
+	</section>
+</div>
